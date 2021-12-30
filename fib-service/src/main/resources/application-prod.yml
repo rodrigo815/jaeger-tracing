@@ -1,0 +1,7 @@
+server:
+  port: 8081
+opentracing:
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831

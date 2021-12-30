@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+factservice:
+  host: localhost:8080
+
+fibservice:
+  host: localhost:8081
+
+---
+opentracing:
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831
